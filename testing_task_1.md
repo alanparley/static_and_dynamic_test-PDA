@@ -9,21 +9,21 @@
 class CardGame:
 
 
-  def checkforAce(self, card):
+  def checkforAce(self, card): #1 - should put _ between words in function names
     if card.value = 1:
-      return true
+      return true 
     else
       return false
 
-  dif highest_card(self, card1 card2)
-    if card1.value > card2.value
-      return card
+  dif highest_card(self, card1 card2) #2 - dif - should day def, 3 - no comma between card1 and card 2, 4 - no : at end o
+    if card1.value > card2.value #5  -no colon at end of if statment
+      return card #6 - this should be card1 as card is unused
     else
       return card2
  
 
  def cards_total(cards):
-   total
+   total #7 - this should be set to a value
    for card in cards:
      total += card.value
      return "You have a total of" + total
