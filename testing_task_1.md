@@ -9,13 +9,13 @@
 class CardGame:
 
 
-  def checkforAce(self, card): #1 - should put _ between words in function names
+  def checkforAce(self, card): #1 - should put _ between words in function names and keep words in lower case although will still work
     if card.value = 1:
       return true 
     else
       return false
 
-  dif highest_card(self, card1 card2) #2 - dif - should day def, 3 - no comma between card1 and card 2, 4 - no : at end o
+  dif highest_card(self, card1 card2) #2 - dif - should day def, 3 - no comma between card1 and card2 34 - #4 no : at end 
     if card1.value > card2.value #5  -no colon at end of if statment
       return card #6 - this should be card1 as card is unused
     else
