@@ -15,15 +15,15 @@ class CardGame:
     else #needs a colon at the end
       return false
 
-  dif highest_card(self, card1 card2) #2 - dif - should say def, #3 - no comma between card1 and card2 - #4 no : at end 
-    if card1.value > card2.value #5  -no colon at end of if statment
-      return card #6 - this should be card1.value
+  dif highest_card(self, card1 card2) # - dif - should say def, # - no comma between card1 and card2 - #4 no : at end 
+    if card1.value > card2.value #  -no colon at end of if statment
+      return card # - this should be card1.value
     else # needs a colon at the end
       return card2 # this should be card2.value
  
 
- def cards_total(cards): #8 self is missing
-   total #7 - this should be set to a intial value
+ def cards_total(cards): 
+   total # - this should be set to a intial value
    for card in cards:
      total += card.value
      return "You have a total of" + total
