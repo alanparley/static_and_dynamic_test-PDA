@@ -10,7 +10,7 @@ class CardGame:
 
 
   def checkforAce(self, card): # - could put _ between words in function names and keep words in lower case although will still work and not really an error
-    if card.value = 1: #needs a colon at the end and == 1
+    if card.value = 1 #needs a colon at the end and == 1
       return true 
     else #needs a colon at the end
       return false
