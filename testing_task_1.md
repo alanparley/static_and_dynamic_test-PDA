@@ -26,7 +26,7 @@ class CardGame:
    total # - this should be set to a intial value
    for card in cards:
      total += card.value
-     return "You have a total of" + total
+     return "You have a total of" + total #total integer has to be converted to a string or put into a formatted return statement to match what I put into my test
 
 
 ```
